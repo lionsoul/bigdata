@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Using Oozie UI
+# http://<oozie-host>:11000/oozie
+
+# Upload workflow.xml and job.properties to node/user/username 
+hadoop fs -put ${nameNode}/user/${user.name}
+
+# Goto uploaded dir and execute
+oozie job --oozie http://<oozie-server-hostname>:11000/oozie -config job.properties -run
