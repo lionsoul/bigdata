@@ -22,3 +22,6 @@ Scheduler
 
 	crontab
 	https://stackoverflow.com/questions/878600/how-to-create-a-cron-job-using-bash-automatically-without-the-interactive-editor
+	
+	Oozie
+	https://oozie.apache.org/docs/5.0.0/DG_CommandLineTool.html#Oozie_job_operation_commands
