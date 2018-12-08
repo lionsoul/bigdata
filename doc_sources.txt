@@ -1,0 +1,24 @@
+Document sources:
+
+Oracle driver
+https://weidongzhou.wordpress.com/2015/09/28/import-data-to-hive-from-oracle-database/
+
+Sqoop job
+https://www.tutorialspoint.com/sqoop/sqoop_job.htm
+
+Oracle table to hdfs
+https://docs.hortonworks.com/HDPDocuments/HDP3/HDP-3.0.1/migrating-data/content/hive_import_rdbms_data_to_hdfs.html
+
+Sqoop Import Jobs Using --as-avrodatafile
+https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.6.5/bk_data-movement-and-integration/content/sqoop_import_using_avrodatafile.html
+
+Scoop Import to Hive
+https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.6.5/bk_data-access/content/using_sqoop_to_move_data_into_hive.html
+
+Kerberos/Ambari
+https://docs.hortonworks.com/HDPDocuments/Ambari-2.6.2.2/bk_ambari-security/content/ch_amb_sec_guide.html
+
+Scheduler
+
+	crontab
+	https://stackoverflow.com/questions/878600/how-to-create-a-cron-job-using-bash-automatically-without-the-interactive-editor
