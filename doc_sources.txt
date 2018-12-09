@@ -27,3 +27,4 @@ Scheduler
 	https://community.hortonworks.com/articles/103627/oozie-sqoop-action-1.html
 	https://oozie.apache.org/docs/5.0.0/DG_CommandLineTool.html#Oozie_job_operation_commands
 	https://www.edureka.co/blog/apache-oozie-tutorial/
+	https://www.cloudera.com/documentation/enterprise/5-6-x/topics/admin_oozie_cron.html
