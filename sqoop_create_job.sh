@@ -10,4 +10,7 @@ sqoop job --create oracle_cdr_import \
 --num-mappers 32 \
 --hive-import \
 --create-hive-table \
---hive-table oracle.cdr
+--hive-table oracle.cdr \
+--incremental append \
+--check-column "INSERT_TIME"
+--last-value "2018-12-10 00:00:00"

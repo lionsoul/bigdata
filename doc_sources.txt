@@ -15,6 +15,9 @@ https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.6.5/bk_data-movement-and-in
 Scoop Import to Hive
 https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.6.5/bk_data-access/content/using_sqoop_to_move_data_into_hive.html
 
+Incremental update saved job
+https://sqoop.apache.org/docs/1.4.6/SqoopUserGuide.html#_saved_jobs
+
 Kerberos/Ambari
 https://docs.hortonworks.com/HDPDocuments/Ambari-2.6.2.2/bk_ambari-security/content/ch_amb_sec_guide.html
 
