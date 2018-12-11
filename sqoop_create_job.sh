@@ -8,6 +8,7 @@ sqoop job --create oracle_cdr_import \
 --username root \
 --table cdr \
 --num-mappers 32 \
+--target-dir /hadoop/hdfs/oracle
 --hive-import \
 --create-hive-table \
 --hive-table oracle.cdr \
