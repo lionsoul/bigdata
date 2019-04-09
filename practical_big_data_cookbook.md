@@ -1,5 +1,6 @@
-# HIVE
-## Hive Metastore
+# PRACTICAL BIG DATA COOKBOOK
+## HIVE
+### Hive Metastore
 To delete table with all partitions included one should execute following script in Hive Metastore database. Usually Hive Metastore database runs on MySQL server.
 
 ```sql
@@ -37,3 +38,9 @@ delete from hive.TABLE_PARAMS where TBL_ID IN (select TBL_ID from hive.TBLS wher
 delete from hive.TBLS where DB_ID = @database_id;
 delete from hive.DBS where DB_ID = @database_id;
 ```
+### JSON parsing
+Hive can nest 7 json levels.
+JSON names can not contain “-“
+createOrReplaceTempView() works on dataframe with JSON and not on JSON column.
+
+Df can hold multiple json levels.
